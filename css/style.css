@@ -150,8 +150,13 @@ header nav ul li:hover{
 	justify-content: end;
 }
 
+.landing .right a{
+	display: flex;
+	justify-content: flex-end;
+}
+
 .landing .right img{
-	width: 70%;
+	width: 100%;
 }
 
 @media(max-width: 767px){
@@ -170,6 +175,14 @@ header nav ul li:hover{
 
 	.landing .right{
 		justify-content: center;
+	}
+
+	.landing .right a{
+		justify-content: center;
+	}
+
+	.landing .right a img{
+		width: 70%;
 	}
 
 	.landing .left{
